@@ -68,8 +68,26 @@ git push origin master
 
 Now You are done, Go and Open your GITHUB repository refresh it .
 
+## Errors
 
-<p style="text-align: center;"> Going Dark </p>
+    To https://github.com/vampirepapi/gitlrn.git
+     ! [rejected]        master -> master (fetch first)
+    error: failed to push some refs to 'https://github.com/vampirepapi/gitlrn.git'
+    hint: Updates were rejected because the remote contains work that you do
+    hint: not have locally. This is usually caused by another repository pushing
+    hint: to the same ref. You may want to first integrate the remote changes
+    hint: (e.g., 'git pull ...') before pushing again.
+    hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
+If this happens then use git force command
 
+```
+git push origin master -f
 
+```
+
+<p  align="center">
+	
+    Going Dark
+
+</p>
